@@ -1,9 +1,14 @@
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Metadata } from "next";
 
-export const metadata = {
-  title: "My App",
+export const metadata: Metadata = {
+  title: {
+    default: "Next.JS tutorial - Codevolution",
+    template: "%s | Codevolution",
+    absolute: "",
+  },
   description: "My App Description",
 };
 
