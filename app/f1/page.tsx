@@ -5,6 +5,7 @@ export default function F1() {
     <div>
       <h1>F1</h1>
       <Link href={"/f1/f2"}>F2</Link>
+      <Link href={"//f3"}>F3</Link>
     </div>
   );
 }
